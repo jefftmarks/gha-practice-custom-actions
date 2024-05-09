@@ -12,7 +12,7 @@ function run(){
 
 	core.notice('Hello from my custom JavaScript Action!');
 
-	const websiteUrl = `http://${bucket}.s3-website-${bucketRegion.amazonaws.com}`;
+	const websiteUrl = `http://${bucket}.s3-website-${bucketRegion}.amazonaws.com`;
 	core.setOutput('website-url', websiteUrl);
 };
 
